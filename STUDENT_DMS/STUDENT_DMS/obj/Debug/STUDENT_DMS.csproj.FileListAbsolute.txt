@@ -1,0 +1,14 @@
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\bin\Debug\STUDENT_DMS.exe
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\bin\Debug\STUDENT_DMS.pdb
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.LOGIN.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.Properties.Resources.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.SPLASHSCREEN.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.csproj.GenerateResource.Cache
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.exe
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.pdb
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.ATTENDANCE.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.BACKUP.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.STUDENT_MANAGEMENT.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.STUDENT_MARKS.resources
+C:\Users\L1G1\Documents\Visual Studio 2008\Projects\STUDENT_DMS\STUDENT_DMS\obj\Debug\STUDENT_DMS.TEACHER_MANAGEMENT.resources

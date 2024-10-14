@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{929D2A80-DC0D-4469-B45C-C594CF339D8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STUDENT_DMS</RootNamespace>
+    <AssemblyName>STUDENT_DMS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATTENDANCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATTENDANCE.Designer.cs">
+      <DependentUpon>ATTENDANCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E:\BACKUP.cs">
+      <SubType>Form</SubType>
+      <Link>BACKUP.cs</Link>
+    </Compile>
+    <Compile Include="E:\BACKUP.Designer.cs">
+      <DependentUpon>BACKUP.cs</DependentUpon>
+      <Link>BACKUP.Designer.cs</Link>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ATTENDANCE.resx">
+      <DependentUpon>ATTENDANCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E:\BACKUP.resx">
+      <DependentUpon>BACKUP.cs</DependentUpon>
+      <Link>BACKUP.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPLASHSCREEN.resx">
+      <DependentUpon>SPLASHSCREEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT_MANAGEMENT.resx">
+      <DependentUpon>STUDENT_MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT_MARKS.resx">
+      <DependentUpon>STUDENT_MARKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEACHER_MANAGEMENT.resx">
+      <DependentUpon>TEACHER_MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SPLASHSCREEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPLASHSCREEN.Designer.cs">
+      <DependentUpon>SPLASHSCREEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT_MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT_MANAGEMENT.Designer.cs">
+      <DependentUpon>STUDENT_MANAGEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT_MARKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT_MARKS.Designer.cs">
+      <DependentUpon>STUDENT_MARKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEACHER_MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEACHER_MANAGEMENT.Designer.cs">
+      <DependentUpon>TEACHER_MANAGEMENT.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
