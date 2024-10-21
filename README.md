@@ -1,12 +1,8 @@
 - 👋 Hi, I’m @LuxoloKhedama
 - 👀 I’m interested in Software development and testing
-- 🌱 I’m currently learning C# and Python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-LuxoloKhedama/LuxoloKhedama is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- The above repository is a STUDENT DATABASE MANAGEMENT SYSTEM. It is a PC based application that offers a few special features. This application can manage students, Teachers, grades, the attendance and the special features i have intergrated is a built-in back up system that is not using a cloud based back up but a system that converts data to a cvs file to minimise storage it takes and as the user you can then choose the safe location which he or she wants to save the data to.
+-   There is also a generate report system that generates a report of all the data of a specific type of document such as access or excel that then gets generated to a textfile to minimise storage.
+-   The same system is also implemented for grades if the user selects a grade from 8 to 12.
+-   This application also features security such a login system that will only accept login details of the authorised users that are valid in the database
+-   This application has also try and catch code, to catch any erros or mismatch data type that has been inserted to the textboxes
+-   I have implemented a function in the login system that if the user has type incorrect password or pin or username 3 times it must disable the button login and the user must close the program and reopen it.
